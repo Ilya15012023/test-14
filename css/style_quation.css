@@ -1,0 +1,200 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    background-color: #58514C;
+}
+
+.logo__header {
+    padding-top: 20px;
+    margin-left: 50px;
+}
+
+.title__text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.border {
+    background-color: #8E8686;
+    border-radius: 50px;
+    margin: 0 auto;
+    justify-content: center;
+    width: 1377px;
+    height: 655px;
+}
+
+.groop__prof {
+    padding-top: 20px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding-bottom: 400px;
+}
+
+.btn__quation {
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #251E1E;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 500px;
+    padding: 7px 150px;
+    border-radius: 15px
+}
+
+.quation__btn {
+    display: flex;
+}
+
+.chat__img {
+    display: block;
+    
+}
+
+
+
+@media (max-width: 1100px) {
+    .border {
+        width: 1015px;
+    }
+}
+
+@media (max-width: 900px) {
+    .border {
+        width: 775px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .title__text {
+        font-size: 30px;
+    }
+
+    .border  {
+        width: 495px;
+    }
+
+    .btn__quation {
+        width: 330px;
+    }
+
+    .groop__prof {
+        width: 400px;
+    }
+
+    .header {
+        height: 1000px;
+    }
+}
+
+
+
+@media (max-width: 450px) {
+    .title__text {
+        font-size: 24px;
+    }
+
+    .border {
+        width: 395px;
+    }
+
+    .groop__prof {
+        width: 320px;
+    }
+
+
+    .btn__quation  {
+        font-size: 44px;
+    }
+
+    .header {
+        height: 1000px;
+    }
+}
+
+
+
+@media (max-width: 400px) {
+    .title__text  {
+        font-size: 19px;
+    }
+
+    .border {
+        width: 335px;
+    } 
+
+    .groop__prof {
+        width: 290px;
+    }
+
+    .btn__quation {
+        color: #fff;
+        font-weight: 600;
+        background-color: #251E1E;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        padding: 7px 113px;
+        border-radius: 15px;
+        width: 200px;
+        font-size: 34px;
+    }  
+
+    .header {
+        height: 1000px;
+    }
+}
+
+
+
+
+@media (max-width: 330px) {
+    .title__text {
+        font-size: 17px;
+    } 
+
+    .border  {
+        width: 275px;
+    }
+
+    .groop__prof  {
+        width: 220px;
+    }
+
+    .btn__quation  {
+        padding: 24px 110px;
+        font-size: 24px;
+        width: 190px;
+    }
+}

@@ -1,0 +1,210 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    background-image: url(../img/аренда\ авто\ фигма\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130vh;
+}
+
+.header__log {
+    padding-top: 20px;
+    margin-left: 50px;
+}
+
+.title__header {
+    font-family: 'Unbounded', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 100px;
+    font-weight: 600;
+    padding-top: 110px;
+    margin-left: 50px;
+}
+
+.header__btn {
+    font-family: 'Unbounded', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 60px;
+    font-weight: 400;
+    background-color: #51687D;
+    width: 540px;
+    padding: 29px 43px;
+    margin-left: 50px;
+    border-radius: 55px;
+    text-decoration: none;
+}
+
+.block__btn {
+    display: flex;
+    gap: 300px;
+}
+
+.header__btn__second {
+    background-color: #07153C;
+}
+
+.popur {
+    background-color: #294276;
+    width: 400px;
+    height: 435px;
+    border-radius: 20px;
+    margin-bottom: -315px;
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    z-index: 2;
+    display: none;
+}
+
+.popur__title {
+    font-family: 'Unbounded', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 33px;
+    padding-top: 10px;
+}
+
+.popur__text {
+    font-family: 'Unbounded', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 10px;
+    box-shadow: none;
+    padding-bottom: 9px;
+    margin-left: 72px;
+    outline: none
+}
+
+.popur__btn {
+    text-decoration: none;
+    font-family: 'Unbounded', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    background-color: #433E3E;
+    padding: 5px 5px;
+    width: 130px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+@media (max-width: 1000px) {
+    .header__btn {
+        font-family: 'Unbounded', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 400;
+    background-color: #51687D;
+    width: 380px;
+    padding: 29px 43px;
+    margin-left: 0px;
+    border-radius: 55px;
+    text-decoration: none;
+    }
+}
+
+
+
+@media (max-width: 800px) {
+    .header__btn {
+        text-decoration: none;
+        font-size: 19px;
+        font-weight: 400;
+        background-color: #51687D;
+        width: 260px;
+        padding: 29px 50px;
+        margin-left: 115px;
+        border-radius: 55px;
+        text-decoration: none;
+        padding-top: 30px;
+    }
+
+
+    .block__btn {
+        gap: 60px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+    }
+}
+
+
+
+@media (max-width: 400px) {
+    .header__btn {
+        font-size: 19px;
+        font-weight: 400;
+        background-color: #51687D;
+        width: 250px;
+        padding: 29px 50px;
+        margin-left: 77px;
+        border-radius: 55px;
+        text-decoration: none;
+        padding-top: 30px;
+    }
+
+    .title__header {
+        font-size: 70px;
+    } 
+
+    .popur {
+        width: 369px;
+    }
+}
+
+
+@media (max-width: 420px) {
+    .header__btn {
+        font-size: 19px;
+        font-weight: 400;
+        background-color: #51687D;
+        width: 260px;
+        padding: 29px 50px;
+        margin-left: 85px;
+        border-radius: 55px;
+        text-decoration: none;
+        padding-top: 30px;
+    } 
+}
