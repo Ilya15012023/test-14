@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/style_and_first.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600&display=swap" rel="stylesheet">
+    
+    <title>Подробнее</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__block">
+            <div class="header__logo">
+                <img class="header__log" src="img/LUXAuto.png" alt="">
+            </div>
+            <div class="popur">
+                <div class="popur__body">
+                    <h3 class="popur__title">Заявка на аренду</h3>
+                    <p class="popur__text" >Ваше имя</p>
+                    <input type="text" class="popur__text">
+                    <p class="popur__text">Марка автомобиля</p>
+                    <input type="text" class="popur__text">
+                    <p class="popur__text">Начало аренды</p>
+                    <input type="text" class="popur__text">
+                    <p class="popur__text">Конец аренды</p>
+                    <input type="text" class="popur__text">
+                    <p class="popur__text">E-mail</p>
+                    <input type="text" class="popur__text">
+                    <a href="index.html" class="popur__btn">Оправить</a>
+                </div>
+            </div>
+            <div class="header__title">
+                <h1 class="title__header">BMW M5</h1>
+            </div>
+            <div class="block__btn">
+                <a href="#" class="header__btn">Арендовать</a>
+                <a href="index.html" class="header__btn header__btn__second">На главную</a>
+            </div>
+        </div>
+    </header>
+
+
+
+    <script>
+        let headerBtn = document.querySelector('.header__btn')
+        let popur = document.querySelector('.popur')
+        let popur__body = document.querySelector('.popur__body')
+
+
+        headerBtn.onclick = function() {
+            popur.style.display = 'block'
+        }
+    </script>
+</body>
+</html>
